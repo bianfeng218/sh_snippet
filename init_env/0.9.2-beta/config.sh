@@ -1,7 +1,7 @@
 
 
 CONTEXT=/export
-SHELL_CONTEXT=/root/init_env
+SHELL_CONTEXT=/root/init_env/0.9.2-beta
 SOFTWARE_CONTEXT=$CONTEXT/servers
 
 NGINX_CONFIGURE_PARAM=
