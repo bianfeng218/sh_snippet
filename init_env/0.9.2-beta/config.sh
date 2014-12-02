@@ -4,7 +4,7 @@ CONTEXT=/export
 SHELL_CONTEXT=/root/init_env/0.9.2-beta
 SOFTWARE_CONTEXT=$CONTEXT/servers
 
-NGINX_CONFIGURE_PARAM=
+NGINX_CONFIGURE_PARAM="--with-pcre=/root/pcre-8.36 --with-pcre-jit"
 
 SOURCE_IP=192.168.147.32
 USER=root
