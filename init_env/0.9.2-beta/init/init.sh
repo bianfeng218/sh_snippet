@@ -4,8 +4,8 @@ source ../config.sh
 sh init_export.sh
 sh init_software.sh
 
-sh ../java/install_java.sh
-sh ../maven/install_maven.sh
-sh ../nginx/install_nginx.sh
+sh ../java/install.sh
+sh ../maven/install.sh
+sh ../nginx/install.sh
 
 source /etc/profile
